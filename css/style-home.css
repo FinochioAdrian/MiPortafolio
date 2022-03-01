@@ -1,0 +1,54 @@
+header {
+    background-color: red;
+    padding: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+
+}
+
+.contenedor-nav {
+
+    margin: 0 auto;
+
+
+}
+
+.logo {
+    background-color: green;
+    display: inline-block;
+    margin: 0 3em;
+    width: 20%;
+
+}
+
+nav {
+    padding: auto;
+
+    margin: 2em auto;
+
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+nav ul {
+    display: inline;
+}
+
+nav li {
+    display: inline;
+    margin: 0 2em 0 0;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
