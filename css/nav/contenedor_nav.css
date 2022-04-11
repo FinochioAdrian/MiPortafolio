@@ -1,6 +1,7 @@
 
 .cabecera{
     display: initial;
+    order: -1;
 }
 .contenedor_nav{
     width: 100%;

@@ -1,0 +1,4 @@
+.contenedor_Skills_hobbies_formacion{
+    display: flex;
+    flex-direction: column;
+}

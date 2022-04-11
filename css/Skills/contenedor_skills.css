@@ -1,0 +1,31 @@
+.contenedor_skills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.titulo_skills{
+    
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.3;
+}
+.skills_items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item_skills{
+    background-color: #FFF;
+    margin: 5px 0;
+    width: 147px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagen_item{
+    width: 29px;
+    height: 28px;
+}

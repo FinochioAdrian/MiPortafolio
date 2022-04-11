@@ -9,63 +9,71 @@
     <link rel="stylesheet" href="css/style-home.css" />
 
     <link rel="stylesheet" href="css/nav/contenedor_nav.css" />
+    <link rel="stylesheet" href="css/presentacion/section_contenedor_presentacion.css" />
+    <link rel="stylesheet" href="css/sobreMi/section_contenedor_sobreMi.css" />
+
+    <link rel="stylesheet" href="css/contenedor_Skills_hobbies_formacion.css" />
+    <link rel="stylesheet" href="css/Skills/contenedor_skills.css" />
+    <link rel="stylesheet" href="css/hobbies/contenedor_hobbies.css" />
     <title>Mi Portafolio</title>
 </head>
 
 <body>
-    <header class="cabecera">
-        <div class="contenedor_nav">
-            <div class="logo">
-                <h1>Finochio Adrián</h1>
+    
+    <main class="main">
+        <header class="cabecera">
+            <div class="contenedor_nav">
+                <div class="logo">
+                    <h1>Finochio Adrián</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="list-menu">
+                        <li class="item-menu"><a href="#sobreMi">Sobre mi</a></li>
+                        <li class="item-menu"><a href="#skills">Skills</a></li>
+                        <li class="item-menu"><a href="#hobbies">Hobbies</a></li>
+                        <li class="item-menu"><a href="#formacion">Formación</a></li>
+                        <li class="item-menu"><a href="#experiencia">Proyectos</a></li>
+                        <li class="item-menu">
+                            <a href="mailto:finochio.adrian@outlokk.com">Finochio.adrian@outlook.com</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="nav">
-                <ul class="list-menu">
-                    <li class="item-menu"><a href="#sobreMi">Sobre mi</a></li>
-                    <li class="item-menu"><a href="#skills">Skills</a></li>
-                    <li class="item-menu"><a href="#hobbies">Hobbies</a></li>
-                    <li class="item-menu"><a href="#formacion">Formación</a></li>
-                    <li class="item-menu"><a href="#experiencia">Proyectos</a></li>
-                    <li class="item-menu">
-                        <a href="mailto:finochio.adrian@outlokk.com">Finochio.adrian@outlook.com</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
+        </header>
         <section class="section_contenedor_presentacion">
             <img src="img/Finochio Adrian.jpg" alt="Retrato fotografico de Finochio Adrián"
                 class="presentacion_imagen" />
             <div class="presentacion-desc">
                 <p class="presentacion_desc_titulo">
-                    Hola, Bienvenido. Mi nombre es Adrián Finochio y construyo páginas
+                    Hola, bienvenido... Mi nombre es Adrián Finochio y construyo páginas
                     web.
                 </p>
+                
                 <p class="presentacion_desc_cuerpo">
                     Soy estudiante avanzado de la carrera Analista de sistemas de
                     computadoras y actualmente estoy participando del proyecto Oracle
                     ONE en Alura Latam.
                 </p>
                 <ul class="listaEnlaces_presentacion">
-                    <li class="lista_enlaces_presenctacion">
-                        <p class="textoenlaces_presentacion">GitHub</p>
-                        <a href="" class="enlace_imagenFlecha"><img src="./img/mix/arrow_back_black_24dp 1.png"
+                    <li class="item_lista_presentacion">
+                        
+                        <a href="" class="enlace_imagenFlecha"><p class="textoenlaces_presentacion">GitHub</p><img src="./img/mix/arrow_back_black_24dp 1.png"
                                 alt=""></a>
 
                     </li>
-                    <li class="lista_enlaces_presenctacion">
-                        <p class="textoenlaces_presentacion">Linkedin</p>
-                        <a href="" class="enlace_imagenFlecha"><img src="./img/mix/arrow_back_black_24dp 1.png"
+                    <li class="item_lista_presentacion">
+                        
+                        <a href="" class="enlace_imagenFlecha"><p class="textoenlaces_presentacion">Linkedin</p><img src="./img/mix/arrow_back_black_24dp 1.png"
                                 alt=""></a>
                     </li>
-                    <li class="lista_enlaces_presenctacion">
-                        <p class="textoenlaces_presentacion">Instragram</p>
-                        <a href="" class="enlace_imagenFlecha"><img src="./img/mix/arrow_back_black_24dp 1.png"
+                    <li class="item_lista_presentacion">
+                        
+                        <a href="" class="enlace_imagenFlecha"><p class="textoenlaces_presentacion">Instragram</p><img src="./img/mix/arrow_back_black_24dp 1.png"
                                 alt=""></a>
                     </li>
-                    <li class="lista_enlaces_presenctacion">
-                        <p class="textoenlaces_presentacion">Curriculum</p>
-                        <a href="" class="enlace_imagenFlecha"><img src="./img/mix/arrow_back_black_24dp 1.png"
+                    <li class="item_lista_presentacion">
+                        
+                        <a href="" class="enlace_imagenFlecha"><p class="textoenlaces_presentacion">Curriculum</p><img src="./img/mix/arrow_back_black_24dp 1.png"
                                 alt=""></a>
                     </li>
                 </ul>
@@ -74,15 +82,16 @@
         </section>
         <section id="sobreMi" class="section_contenedor_sobreMi">
             <div class="contenedor_sobreMi">
-                <h3>Sobre mi</h3>
+                <h3 class="titulo_sobreMi">Sobre mi</h3>
                 <p class="sobreMi_parrafo">
-                    Me llamo Adrián Finochio, Tengo 28 Años y soy argentino. Actualmente estoy cursando el último año de
-                    la carrera de Analista en sistemas de computadoras en el Instituto Superior Santo Domingo. </p>
+                    Me llamo <strong>Adrián Finochio</strong>, Tengo 28 Años y soy argentino. Actualmente estoy cursando el último año de
+                    la carrera de Analista en sistemas de computadoras en el Instituto Superior Santo Domingo.  </p>
+                    
                 <p class="sobreMi_parrafo">
-                    La frase que siento que me define es <i><strong> “Apasionado por las computadoras y la programación”
-                        </strong></i>. Me gusta admirar el pensamiento lógico detrás del código e imaginar cómo funciona
+                    La frase que siento que me define es <strong> “Apasionado por las computadoras y la programación”
+                        </strong>. Me gusta admirar el pensamiento lógico detrás del código e imaginar cómo funciona
                     y hasta su posible uso más allá del desarrollo, todo esto me motiva a aprender, pesar y hasta
-                    experimentar con él. </p>
+                    experimentar con él.  </p>
 
                 <p class="sobreMi_parrafo">
                     Actualmente soy docente de Informática y ciencias físico química en una escuela Secundaria de la
@@ -90,9 +99,12 @@
                 </p>
 
                 <p class="sobreMi_parrafo">
-                    Mis pasatiempo Favoritos Son las nuevas tecnologías, Programación y, practicar deportes cómo el
-                    Futbol, ciclismo MTB y Snowboard, también dedico tiempo como voluntario ayudado a los vecinos de
-                    mi comunidad. <br/>
+                    Mis pasatiempo favoritos son las nuevas tecnologías, Programación y, practicar deportes cómo el
+                    Futbol, Ciclismo MTB y Snowboard, también dedico tiempo como voluntario ayudado a los vecinos de
+                    mi comunidad. 
+                </p>
+
+                <p class="sobreMi_parrafo">
                     Me considero una persona activa y sin miedo a encara nuevos proyectos.
 
                 </p>
@@ -102,9 +114,9 @@
         </section>
         <section class="contenedor_Skills_hobbies_formacion">
             <div id="skills" class="contenedor_skills">
-                <h3>Skills</h3>
+                <h3 class="titulo_skills">Skills</h3>
                 <div class="skills_items">
-                    <div class="item_item_skills">
+                    <div class="item_skills">
                         <img src="./img/skill/html5_skills.png" alt="" class="imagen_item_skills imagen_item" />
                         <h4>Html5</h4>
                     </div>
@@ -135,7 +147,7 @@
                 </div>
             </div>
             <div id="hobbies" class="contenedor_hobbies">
-                <h3>Hobbies</h3>
+                <h3 class="titulo_hobbies">Hobbies</h3>
                 <div class="hobbies_items">
                     <div class="item_hobbies">
                         <a href="https://www.flaticon.es/iconos-gratis/snowboard" title="snowboard iconos Snowboard iconos creados por Freepik - Flaticon"><img src="./img/hobbies/tabla-de-snowboard.png" alt="" class="imagen_item_hobbies imagen_item" /></a>
@@ -288,7 +300,7 @@
                 </form>
             </div>
             <div class="contenedor_piePagina">
-                <p class="parrafo_piePagina">Desarrolado por Finochio Adrian <br> 2022</p>
+                <p class="parrafo_piePagina">Desarrolado por Finochio Adrian  2022</p>
             </div>
         </footer>
     </main>

@@ -1,0 +1,25 @@
+.section_contenedor_sobreMi{
+    
+    background-color: #EAF2FD;
+    padding: 4rem;
+}
+.contenedor_sobreMi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 29rem;
+}
+.titulo_sobreMi{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.3;
+}
+.sobreMi_parrafo{
+font-weight: 400;
+font-size: 1.3rem;
+line-height: 2rem;
+}
+.sobreMi_parrafo strong{
+    font-weight: 600;
+    font-style: italic;
+}

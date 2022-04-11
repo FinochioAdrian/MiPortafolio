@@ -1,0 +1,26 @@
+.contenedor_hobbies{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.titulo_hobbies{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.3;  
+}
+.hobbies_items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item_hobbies{
+    background-color: #FFF;
+    margin: 5px 0;
+    width: 147px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
